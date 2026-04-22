@@ -42,6 +42,15 @@ The app currently has no backend, no database, no auth, and no runtime secrets. 
 | `.dockerignore` | Keeps Cloud Build Docker context small and excludes local/generated files |
 | `.gitignore` | Keeps generated, local, secret, and tool-state files out of git |
 | `AGENTS.md` | Codex/project guidance, including code-review-graph workflow |
+| `docs/ARCHITECTURE.md` | System architecture, module topology, deployment flow, and evolution guardrails |
+| `docs/PRODUCT_DESIGN.md` | Product goals, users, journeys, UX requirements, roadmap, and product risks |
+| `docs/TECHNICAL_DESIGN.md` | Architecture, build/deploy design, module boundaries, security, and technical risks |
+
+## Design Documents
+
+- [Architecture](docs/ARCHITECTURE.md)
+- [Product Design Document](docs/PRODUCT_DESIGN.md)
+- [Technical Design Document](docs/TECHNICAL_DESIGN.md)
 
 ## Local Development
 

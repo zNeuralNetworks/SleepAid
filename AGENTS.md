@@ -17,6 +17,9 @@
 - `index.css`: Tailwind import plus custom global theme, scrollbar, safe-area, animation, and prose utilities.
 - `cloudbuild.yaml`: Artifact Registry build/push and Cloud Run deploy.
 - `Dockerfile` + `nginx.conf`: production static build served by nginx on port `8080`.
+- `docs/ARCHITECTURE.md`: system boundaries, module topology, deployment flow, and architecture guardrails.
+- `docs/PRODUCT_DESIGN.md`: product goals, users, journeys, UX requirements, roadmap, and product risks.
+- `docs/TECHNICAL_DESIGN.md`: implementation design, build/deploy mechanics, testing, security, and technical debt.
 
 ## Code Review Graph
 
